@@ -1,16 +1,14 @@
 #### Jekyll Static Page
-1 Folder apps merupakan web stastis (Jekyll Pages) yang di clone dari repo https://github.com/suhindra/suhindra.github.io
+Folder apps merupakan web stastis ([Jekyll Pages]("https://jekyllrb.com") yang di clone dari repo https://github.com/suhindra/suhindra.github.io
 
 #### Dockerfile
-Dockerfile ini digunakan untuk membangun image docker. Dockerfile tersebut menggunakan image ruby:latest dan berisi perintah-perintah yang perintah-perintah yang diperlukan untuk mengelola jekkyl. Untuk menjalankan Jekyll Pages di docker, gunakan image (suhindra/jekyll-container), 
+Dockerfile ini digunakan untuk membangun [image docker]("https://hub.docker.com/r/suhindra/jekyll-container/"). Dockerfile tersebut menggunakan image ruby:latest dan berisi perintah-perintah yang perintah-perintah yang diperlukan untuk mengelola jekyll. Dockerfile ini juga sudah di push ke docker hub [(suhindra/jekyll-container)]("https://hub.docker.com/r/suhindra/jekyll-container/")
 
 #### Docker Compose
 
 Untuk `docker-compose` via `docker-compose.yml`,image untuk membuat container dari docker image (suhindra/jekyll-container:latest) volume untuk menunjukan diretory dari jekyll site saya, port untuk mengarahkan port host  4000 ke port container  4000 (4000:4000),
 
 `docker-compose.yml`:
-
-docker-compose.yml:
 
 ```yml
 jekyll-container:
