@@ -1,0 +1,7 @@
+jekyll-container:
+    image: suhindra/jekyll-container
+    ports:
+        - "8000:8000"
+    volumes:
+        - /var/www/html/suhindra.github.io/suhindra.github.io:/app
+    working_dir: /app   
