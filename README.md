@@ -44,5 +44,5 @@ jekyll-container_1  |   Server running... press ctrl-c to stop.
 ```
 
 Jika mengakses http://0.0.0.0:4000 di browser terlihat seperti
-https://github.com/suhindra/responsitccl/blob/master/img/Screenshot%20from%202017-07-24%2021-32-54.png?raw=true
+![akses jekyll page](https://github.com/suhindra/responsitccl/blob/master/img/Screenshot%20from%202017-07-24%2021-32-54.png)
 
